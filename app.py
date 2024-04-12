@@ -56,6 +56,7 @@ with calories intake in below format
 
 1. Item1 - no. of calories
 2. Item2 - no. of calories
+3. Item3 - no. of calories
 ----
 ----
 
@@ -68,13 +69,16 @@ You are a professional chef where you need to see the food items from the given 
 provide a step by step recipe for cooking it. Also with the required Ingredients. In below format
 
 Required Items:
-    1. Item1
-    2. Item2
-    --------
+1. Item1
+2. Item2
+3. Item3
+...
+
 Recipe:
-    1. step 1
-    2. step 2
-    ---------
+1. step 1
+2. step 2
+3. step 3
+...
 
 """
 if submit:

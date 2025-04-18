@@ -5,10 +5,10 @@ from dotenv import load_dotenv
 from PIL import Image
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
 
 # Configure Gemini API
-genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
+genai.configure(api_key=GEMINI_API_KEY)
 
 # Function to get response from Gemini
 def get_response(input_prompt, img):

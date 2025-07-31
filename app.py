@@ -66,7 +66,7 @@ up_file = st.file_uploader('Choose an Image...', type=['jpg', 'jpeg', 'png'], ke
 # Display the uploaded image
 if up_file is not None:
     image = Image.open(up_file)
-    st.image(image, caption='Uploaded Image', use_column_width=True)
+    st.image(image, caption='Uploaded Image', use_container_width=True)
 
 # Buttons for actions
 col1, col2 = st.columns(2)

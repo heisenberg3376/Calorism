@@ -8,7 +8,7 @@ from PIL import Image
 load_dotenv()
 
 # Configure Gemini API
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+genai.configure(api_key="AIzaSyCGti29An-hTo9m-7D3hzzbb_fGCVPQnbM")
 
 # Function to get response from Gemini
 def get_response(input_prompt, img):

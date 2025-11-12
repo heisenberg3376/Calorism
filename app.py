@@ -12,7 +12,7 @@ genai.configure(api_key="AIzaSyCGti29An-hTo9m-7D3hzzbb_fGCVPQnbM")
 
 # Function to get response from Gemini
 def get_response(input_prompt, img):
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-2.5-flash')
     response = model.generate_content([input_prompt, img[0]])
     return response.text
 
@@ -129,3 +129,4 @@ if cook:
             st.write(response)
     else:
         st.warning("Please upload an image first.")
+

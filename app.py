@@ -8,7 +8,7 @@ from PIL import Image
 load_dotenv()
 
 # Configure Gemini API
-genai.configure(api_key="AIzaSyCGti29An-hTo9m-7D3hzzbb_fGCVPQnbM")
+genai.configure(api_key="AIzaSyB8Mg7BqCtiXwTLppARhr28cm9QdlIZAdQ")
 
 # Function to get response from Gemini
 def get_response(input_prompt, img):
@@ -129,4 +129,5 @@ if cook:
             st.write(response)
     else:
         st.warning("Please upload an image first.")
+
 
